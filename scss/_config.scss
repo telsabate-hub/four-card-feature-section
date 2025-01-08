@@ -1,0 +1,26 @@
+$primary-color1: hsl(0, 78%, 62%);
+$primary-color2: hsl(180, 62%, 55%);
+$primary-color3: hsl(34, 97%, 64%);
+$primary-color4: hsl(212, 86%, 64%);
+$neutral-color1: hsl(234, 12%, 34%);
+$neutral-color2: hsl(229, 6%, 66%);
+$neutral-color3: hsl(0, 0%, 98%);
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@mixin centerContentVertically(){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@mixin poppins($size, $weight){
+    font-family: "Poppins", sans-serif;
+    font-weight: $weight;
+    color: $neutral-color2;
+    font-size: $size;
+}

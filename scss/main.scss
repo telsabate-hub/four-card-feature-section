@@ -10,8 +10,8 @@ body {
 }
 
 main {
-    width: 80%;
-    margin: auto;
+    max-width: 70rem;
+    margin: 3.125rem auto;
 }
 
 .title {
@@ -45,21 +45,21 @@ article {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
-    height: 500px;
+    height: 63vh;
 }
 
 .card {
     border-radius: .5em;
-    box-shadow: 0px 5px 10px 0px $neutral-color2;
+    box-shadow: 0px 10px 20px 0px hsl(229deg 6% 66% / 49%);
     margin: 1rem;
     padding: 1.875rem;
-    font-size: .8em;
+    font-size: .8125rem;
     position: relative;
 }
 
 .card h2 {
     color: $neutral-color1;
-    font-size: 15px;
+    font-size: 1.3125rem;
     font-weight: 600;
     margin-bottom: .5em;
 }
